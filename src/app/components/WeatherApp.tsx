@@ -184,6 +184,7 @@ export const WeatherApp: React.FC = () => {
       </div>
 
       <div className={styles.header}>
+        <h1>테스트12345</h1>
         <div className={styles.cityName}>서울특별시임미댜</div>
       </div>
 
