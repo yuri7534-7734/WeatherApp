@@ -157,14 +157,14 @@ export const WeatherApp: React.FC = () => {
           <span>{currentTime.getHours()}:{String(currentTime.getMinutes()).padStart(2, '0')}</span>
         </div>
         <div className={styles.rightGroup}>
-          <span>📶</span>
-          <span>📡</span>
-          <span>🔋</span>
+          <span>▂▃▅</span>
+          <span>⌂</span>
+          <span>▮▮▯</span>
         </div>
       </div>
 
       <div className={styles.header}>
-        <div className={styles.cityName}>서울특별시</div>
+        <div className={styles.cityName}>서울특별시입니다.</div>
       </div>
 
       <div className={styles.dots}>
